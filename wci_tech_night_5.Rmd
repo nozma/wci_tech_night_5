@@ -1,5 +1,5 @@
 ---
-title: "メンデルの法則 #2"
+title: "メンデルの話 #2"
 author: "@nozma"
 date: '2020-02-21'
 output:
@@ -51,7 +51,7 @@ class: middle
 
 ### 前回のおさらい
 
-.small[前回: [メンデルの法則](https://nozma.github.io/wci_tech_night_4/wci_tech_night_4.html#1)]
+.small[前回: [メンデルの話](https://nozma.github.io/wci_tech_night_4/wci_tech_night_4.html#1)]
 
 ---
 
