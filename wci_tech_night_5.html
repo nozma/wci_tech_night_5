@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>メンデルの法則 #2</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="@nozma" />
+    <meta name="date" content="2020-02-21" />
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/elevate-section-attrs/elevate-section-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="my.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# メンデルの法則 #2
+### <span class="citation">@nozma</span>
+### 2020-02-21
+
+---
+
+
+
+
+
+
+class: middle
+
+### 高校生物とった人〜✋
+
+--
+
+はい。バッチリですね。
+
+---
+
+class: middle
+
+### 前回のおさらい
+
+.small[前回: [メンデルの法則](https://nozma.github.io/wci_tech_night_4/wci_tech_night_4.html#1)]
+
+---
+
+class: middle
+
+### メンデルの実験
+
+- 34のエンドウ品種を収集し、22品種を実験用に選抜。
+- **安定していて明確に区別できると判断した**7つの形質を選定。
+- 1857年から交配試験。
+- 1865年、実験の成果を発表。そこから導かれる3つの法則が後に**メンデルの法則**と呼ばれる。
+
+---
+
+class: middle
+
+### メンデルの法則
+
+---
+
+### 優性の法則
+
+- **対立形質**をもつ系統同士を交配すると、その雑種1代(F₁)にいずれか片方(優性形質)のみが現れる。
+
+.center[![:scale 40%](figure/f1.png)]
+
+---
+
+### 分離の法則
+
+- F₁を自殖交配するとその子孫(F₂)でF₁で現れなかった形質(劣性形質)が再び**一定の比率で**現れる。
+- つまり、形質を司る**遺伝子**が配偶子に分離して分配される。
+
+.center[![:scale 60%](figure/f2.png)]
+
+---
+
+### 独立の法則
+
+- 複数の対立形質を持つ系統について雑種を作成すると、それぞれの形質は互いに影響せず**独立に**遺伝する。
+- つまり、F₂においてそれぞれの形質が独立に分離の法則に従う。
+
+.center[![:scale 33%](figure/9331.png)]
+
+
+---
+
+#### メンデルの発表のその後
+
+- しばらくの間イマイチ理解されない。
+
+--
+
+- 1900年 メンデルの法則再発見。
+
+--
+
+- 1936年 R.A. Fisherが「おまえらちゃんとメンデル先生の業績理解してるか？」という趣旨の論文を発表。
+    - **「データ調べたらほとんど偽造としか言えないんすよ」** と指摘(ﾔﾊﾞｲ!!!)
+
+--
+
+- 1965年 メンデルの発表から100周年記念でなんやかんやの記事が出る。Fisherの指摘が再び注目を集める。
+
+--
+
+- 〜現在 揉め続ける。
+
+---
+
+### Fisherの指摘内容
+
+1. メンデルはF₂の優性形質個体について、ヘテロとホモの割合を**2:1**と報告しているが、F₂の各個体について10個の子孫しか調べていないので観測は偏るはずで、**1.7:1**にならないとおかしい。
+2. **データが理論値に適合しすぎている。**
+
+--
+
+- 1については**実質的に10個体以上を調べる実験デザインが可能であった**ということで説明可能。
+    - なお、**メンデルの記述は割と適当**なので、本当に10個体以上調べていた可能性も高い。
+
+--
+
+- 前回1について話したので今回2がテーマです。
+
+---
+
+### Fisherの指摘のその後
+
+- **メンデルが捏造をしていたのではないか？**という説は、さほど検証されずに統計学のテキストや一般の書籍に載ることがしばしばあった。
+
+--
+
+- 2008年 Franklinらが「メンデル-フィッシャ論争の終焉 (Ending the Mendel-Fisher Controversy)」と題した書籍を出版。これまでの論争を総括し、次の結論を出した。
+  1. **メンデルは偽造を行っていない。**
+  2. データが一致しすぎとの指摘は正しいが、偽造なしに説明可能である。
+  3. 「2:1ではなく1.7:1になるべき」は誤っている。
+  4. Fisherとしては自分の指摘がメンデルの業績を貶めることになるのは不本意であった。
+
+---
+
+### Fisherの指摘のその後
+
+- 色々あったので「メンデルが捏造は既に否定されている」と指摘する人もおり、数年前にちょっと話題になったりもしました。
+
+---
+
+class: middle
+
+### めでたしめでたし…？
+
+---
+
+### 「論争の終焉」のその後
+
+- 2016年 Weedenがエンドウの遺伝学者としての立場から新たな検討を加えた論文を発表。
+
+--
+
+- 結論として**「まだ論争を終わらせられるときではない」**と述べている。
+
+---
+
+class: middle
+
+### そもそもFisherは何を指摘したのか？
+
+---
+
+class: middle
+
+### の前に…
+
+---
+
+class: middle
+
+### 統計学履修した人〜✋
+
+--
+
+はい。バッチリですね。
+
+---
+
+### みんな知ってるχ²統計量
+
+.pull-left[
+
+期待からのずれが測れる指標
+
+$$
+\chi^2 = \sum \frac{(観測度数 - 期待度数)^2}{期待度数}
+$$
+
+- 1回のテストなら期待度数ちょうどが得られる確率が一番高そう。
+- 2回、3回、5回…あるいは10回やったときには…？
+]
+
+.pull-right[
+
+![](wci_tech_night_5_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
+
+]
+
+---
+
+### あいつもやってるχ²検定
+
+.pull-left[
+- 計算したχ²値が偶然に生ずる確率が**小さかったら**観測度数が期待度数よりも有意に偏っている、と判断するための手法
+]
+.pull-right[
+![](wci_tech_night_5_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+]
+
+---
+
+### Fisherの指摘
+
+.pull-left[
+- **χ²値が偶然に極めて小さくなる = データが期待度数に非常によく一致する**ということも稀にしか起こらないことである。
+- Fisherは論文に記載されているメンデルのすべての実験データを調べ、χ²値を計算し、メンデルの結果より良い適合が得られる確率は**100,000回に7回**しかなく、**バイアスはデータ全体に浸透している**とのコメントを残した。
+]
+
+.pull-right[
+![](wci_tech_night_5_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+]
+
+---
+
+### 「驚くほど予測に近い」に対する過去の説明
+
+主な説明は4つある
+
+1. エンドウには**何らかの特別な性質**があり、**分離比が期待値に近接する**。
+2. **期待値から大きく外れるデータ**がメンデルにより除外された。
+3. **曖昧な表現型**の分類で期待値に沿うような分類がされた。
+4. **助手によるデータ操作**があった。
+
+--
+
+Weedenはこれら4つについてこれまでとは違うアプローチで検証した。
+
+---
+
+class: middle
+
+### エンドウの分離比は何か特別な力で期待比率に近づくのか？
+
+---
+
+### 分離比が何か特別な力で期待比率に近づく？
+
+- 「そうはならんやろ」というこの仮説は一応過去にも検証されており、**否定的な結論が出ている**。
+
+- Weedenはメンデル以外の研究者が調べた分離比と比較する、という検証方法を採用。
+- 同様のアプローチは過去にもあったが、メンデルと同じ目的の研究ではメンデル同様のバイアスが入る可能性があるため、Weedenは**「連鎖」**の研究で得られたデータのみを集めた。
+
+---
+
+class:middle, center
+
+## 「連鎖」とは何か
+
+---
+
+### 連鎖
+
+.pull-left[
+- 遺伝子は全く独立に遺伝するのではなく、同一染色体上の、近い位置にある遺伝子同士はある程度同調して遺伝し、これを連鎖と呼ぶ。
+- 連鎖のしやすさから、遺伝子同士の距離を調べることができる。
+- **この目的の研究では、分離比自体は調査対象ではないので、メンデルと同様のバイアスは入っていない可能性が高い。**
+]
+
+.pull-right[
+&lt;video width="720" height="540" autoplay loop muted&gt;
+&lt;source src="figure/10rensa.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+.footnote[.small[.small[※これは10連鎖です]]]
+]
+
+---
+
+### メンデルのデータと連鎖研究のデータの検証
+
+- χ²値が決まると、それに対応して**それよりχ²値が大きくなる確率**が分かる。これを**P値**という。
+- 不自然な偏りのないデータなら**P値**は一様に分布する。
+- そこで、P値の分布をメンデルのデータと連鎖研究のデータで比較した。
+
+.center[
+![](wci_tech_night_5_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+]
+
+---
+
+### 結果
+
+.pull-left[
+- メンデルのデータはすべてP &gt; 0.35であった。
+- 連鎖研究のデータは概ね一様だが、P &lt; 0.05のデータが多い。
+- つまり、エンドウの分離比はむしろ歪みやすい性質を持っているにもかかわらず、メンデルのデータには一定以上の歪みがあるデータが無い。
+]
+
+.pull-right[
+![](figure/p-plot.png)
+]
+
+---
+
+class:middle
+
+## メンデルは大きく歪んだデータを除外したか？
+
+---
+
+### 花序という形質の問題
+
+- 花序...花が脇芽につく(優性)か頂芽につく(劣性)か。
+
+--
+
+- 花序については、多くの交配組み合わせで**劣性表現型の浸透度が100%にならない**ことが知られている。
+
+---
+
+## 浸透度 (penetrance)
+
+- ある遺伝子を持っている場合に、実際に対応する表現型が現れる割合。
+
+- **劣性表現型の浸透度が100%にならない**ということは、劣性ホモであっても優性形質が現れる可能性が存在するということ。
+
+--
+
+- メンデルのデータでは花序の分離比は**651:207** (3.15:1) であり、大きな偏りは見られなかった。
+
+- メンデルは浸透度が極めて高い組み合わせを選んで使用した可能性は否定できない。
+
+- 先程のP値の調査からも、メンデルが歪んだデータを除外した可能性は支持される。
+
+---
+
+class: middle
+
+### 疑わしい表現型の分類が不正確だったか？
+
+---
+
+### メンデルの表現
+
+- メンデルは表現型の分類について、ほとんど問題が無いかのような記述をしている。曰く
+    - **対立形質間の違いが明確に区別できる形質**のみを実験に使用した
+    - 正確な評価が難しい例は「**少しの訓練で間違いは容易に回避できた**」
+- したがって、メンデルのデータに「分類不明」は存在しない。
+- だが、表現型の分類はそれほど明確ではないケースがある。
+- メンデルの扱った形質の中にも分類が簡単なもの、難しいものがあるとWeedenは指摘している。
+
+---
+
+### 分類の容易な形質と難しい形質
+
+メンデルは7つの形質を実験に採用したが、そのうち3つは**主な形質以外も変化する**ため、分類がかなり容易である。
+
+1. 草丈（+ 高さにすごく差が出る。巻づるが目立つなど）
+2. 種皮（+ 花の色が変わる）
+3. さやの色（+ さや以外の色も変わる）
+
+この特性についてはメンデルも言及しており、利用していたと考えられる。
+
+---
+
+### 分類の容易な形質と難しい形質
+
+つぎの4つの形質は分類が難しい場合がありうる。
+
+1. 種子の形状
+2. 子葉の色
+3. さやの形状
+4. 花序
+
+花序は浸透度の問題だが、ほかは**中間的な形質**を生ずる場合がある。
+
+---
+
+### 検証方法
+
+もしメンデルが曖昧な表現型を示した個体について、期待結果に沿うような分類を(意図的でなかったにしろ)してしまっていたとすると、**分類が難しい形質において特に期待値に近接する**結果が得られていると考えられる。
+
+1. データセットを、P値が0.5より大きいか0.5未満か、形質が曖昧か曖昧でないかで分類。
+2. P値による分割結果の期待比率を1:1としてχ²検定を行う。
+
+---
+
+### 結果
+
+![](wci_tech_night_5_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+
+- メンデル &amp;&amp; 曖昧なデータセットのみP値が有意に低かった。
+- 加えて、個別のデータセットでP値が高いものが特に多かった。
+
+---
+
+class: middle
+
+### メンデルが期待する結果に合うよにデータを操作した「誰か」は居たか？
+
+---
+
+### 誰かについて
+
+- 過去何度か言及されている。
+    - Fisherは「メンデルは実験前にモデルを組み立てていたはずなので、助手に期待結果を伝えられた」と考察。
+    - Novtski (1995)は「メンデルは実験前には期待結果を知らなかったはず」としてこの説に反対。
+
+--
+
+- メンデルは、数の多い種子の形質について助手に調査させ、栽培が必要なほかの形質について自ら調べたという可能性がある。
+- そうであれば、**種子の形質のデータのみ**理論値に一致しすぎている可能性がある。
+
+---
+
+### 検証方法
+
+- 先ほどと同様の検証を、形質が曖昧かどうかに変えて**形質が種子のものであるかどうか**という観点で行った。
+
+---
+
+### 結果
+
+![](wci_tech_night_5_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+
+- メンデル &amp;&amp; 種子で分かるデータのみP値が特に低かった。
+- したがってこの説もありうる。
+
+---
+
+class:middle
+
+### 一旦まとめます
+
+---
+
+### まとめ
+
+#### 1. エンドウには何らかの特別な性質があり、分離比が期待値に近接する
+- これは否定。むしろエンドウの分離比は偏りやすい。
+
+--
+
+#### 2. 期待値から大きく外れるデータがメンデルにより除外された。
+- これは可能性が高い。あるべき歪み、P値の低いデータが存在しない。
+
+--
+
+#### 3. 曖昧な表現型の分類で期待値に沿うような分類がされた。
+#### 4. 助手によるデータ操作があった。
+- これらはいずれもありうる。
+
+---
+
+class: middle, center
+
+### ここで再び連鎖の話です
+
+&lt;video width="600" height="450" autoplay loop muted&gt;
+&lt;source src="figure/rensa.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+.footnote[.small[.small[※これは11連鎖です。]]]
+
+---
+
+### メンデルは連鎖を見つけられたのではないか
+
+- メンデルが扱った形質には連鎖するものがあったので連鎖を発見できたはずだ、との説がある
+- Weedenが再度取り上げたのは次の理由による。
+    1. 過去のすべての議論はBlixt (1972) の連鎖地図を参照しているが、これは後年新しいものに置き換えられている。
+    2. メンデルが本当は連鎖をみつけてしかるべきだったとすれば、メンデルの文章をそもそも字義通りに捉えて良いのかどうかの判断材料になる。
+.center[
+&lt;video width="300" height="225" autoplay loop muted&gt;
+&lt;source src="figure/rensa.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+]
+
+.footnote[.small[.small[※これは11連鎖です。]]]
+
+---
+
+### 連鎖地図
+
+- 連鎖の頻度によって遺伝子間の相対的な距離が分かる。
+- 遺伝子間の距離が分かれば地図が書ける。これを**連鎖地図**と呼ぶ。
+
+---
+
+### Blixt (1972)の連鎖地図
+
+- 第1染色体上で_I_(種子の色)と_A_(種皮の色)が連鎖。
+- 第4染色体上で_V_(さやの形)、_Fa_(花序)、_Le_(草丈)が連鎖。
+- _I_と_A_の距離は204cM
+- _Fa_と_Le_の距離は121cM
+- _V_と_Le_の距離は12cM
+
+2008年のFranklinらの書籍もこれを引用している。
+
+.center[![:scale 70%](figure/wrong_map.png)]
+
+---
+
+### Weeden et al. (1998)による新しい連鎖地図
+
+- 複数の研究者が共同して作成し、現在コンセンサスが得られている。
+- Blixtのものと連鎖群で6つが異なり、全く新しい1つを含む。
+- 第5連鎖群で_R_(種子の形状)と_Gp_(さやの形状)が連鎖。距離は40cMをしばしば超える。
+- 第3連鎖群で_V_(さやの形)と_Le_(草丈)が連鎖。距離は5cM程度。
+
+
+**_V_と_Le_が特に近い、という点は共通なので修正の程度は少ない。**
+
+.center[![:scale 50%](figure/correct_map.png)]
+
+---
+
+### そもそもさやの形と草丈の組み合わせで実験をしていたか？
+
+- Carl Nägeliにあてた手紙で交配をしたと述べている。
+- この組み合わせで交配をした場合、連鎖がなければ2つの形質がともに劣性、という個体を、メンデルは世代あたり3〜8程度観測すると期待できる。
+- 実際には連鎖があるので、二重劣性の個体は世代あたり1個体観測できるかどうか、という頻度でしか生じない。
+- メンデルはF₄のいくらかまでは観察をしているはずなので、二重劣性が非常に少ないという点にもう少し注意しても良かった。
+
+.footnote[メンデルは世代あたり40〜120個体を調査したと推測。]
+
+---
+
+### Weedenの考察
+
+- Fisherも指摘しているが、**メンデルの発表は自説を聴衆に納得させるためのデモンストレーションとしての性質が強かった**と考えられる。
+- メンデルの説は当時の生物学界が受け入れる準備ができておらず、自説を理解してもらえない研究者に多く遭遇したはずである。
+    - 例えば、ウィーン大学の教員認定試験でフェンツルの口頭試問で議論になり冷静を失ってしまったと言われているが、これはフェンツルが「植物の遺伝形質は花粉に依存する」と信じていたため、という説がある。
+        - フェンツルの話は孫のチェルマックによるもの。チェルマックは法則再発見をした3人の1人。
+- メンデルの論文は元は講演として口頭発表されたものである。
+
+---
+
+### Weedenの考察
+
+- メンデルが自説の説明をなるべくシンプルで説得力のあるものにすべきと感じていたのなら、次のような話も納得がいく。
+    - 曖昧な表現型があり得たのに、データに反映していない。
+    - 偏りのあるデータも生じたはずだが、おそらく省略されている。
+    - データは複数の実験を集約した結果として示される例が多かった。
+    - 連鎖に注意を払わなかった。
+- メンデルの業績は明らかで、遺伝形質の伝達について的確なモデルを構築したこと、これを実証する実験を粘り強く行ったことは彼の優れた能力を示している。
+- しかし、まだ「論争を終わらせるとき」ではない。
+
+---
+
+### まとめ
+
+- エンドウの遺伝が通常の統計モデルに従わず、分離比が理論値に近接しやすい、という説は肯定できない。
+
+- メンデルのデータには偏りのあるデータセットが欠けており、エンドウの遺伝の性質を考慮するとデータが省略された可能性が高い。
+
+- 分離比の偏り方はデータセットにより異なり、「曖昧な表現型」及び「種子で判別できる表現型」において特に理論値への強い一致が見られた。
+
+- データの省略などは、自説をわかりやすく説明するために行われた可能性が考えられる。
+
+.footnote[終わり]
+
+---
+
+### 参考文献
+
+.small[
+
+- メンデル著,  岩槻邦男・須原凖平訳, (1999). 雑種植物の研究. 岩波文庫.
+- Weeden, N. F., (2016). Are Mendel's Data Reliable? The Perspective of Pea Geneticist. _Journal of Heredity_, 107, 635-646, https://doi.org/10.1093/jhered/esw058
+
+- Franklin, A. (2008). _Ending the Mendel-Fisher Controversy_. Pittsburgh: University of Pittsburgh Press.
+
+- 長田敏行, (2017). メンデルの軌跡を訪ねる旅. 裳華房.
+
+- 中村千春, (2016). メンデルの仕事と生涯「今に私の時代が来る」. 第6章, 11-15, http://www.research.kobe-u.ac.jp/ans-intergenomics/Mendel/index.html (2020-02-20閲覧)
+
+- メンデル批判論争について - Togetter - https://togetter.com/li/1011756 (2020-02-20閲覧)
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
